@@ -38,3 +38,21 @@ A web-based tool to dynamically generate **4x4 Magic Squares** where the sum of 
 ---
 
 
+---
+
+## 📌 Note
+
+This version modifies only a few key cells (`a`, `b`, `c`, `d`) in the grid to satisfy the target sum condition. It does not yet generate all values dynamically to form a fully randomized magic square.
+
+---
+
+## 📬 Contact
+
+Feel free to connect if you have suggestions or want to collaborate.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
