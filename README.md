@@ -21,9 +21,9 @@ A web-based tool to dynamically generate **4x4 Magic Squares** where the sum of 
 
 ## 🛠️ Technologies Used
 
-- **HTML** – Structure of the webpage.
-- **CSS** – Styling and layout.
-- **JavaScript** – Logic for generating magic squares.
+- **HTML** 
+- **CSS** 
+- **JavaScript** 
 
 ---
 
