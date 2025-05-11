@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
 }
 
 body {
     background-color: #f4f4f4;
-    display:flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,12 +16,13 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-input, button {
+input,
+button {
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0px;
     font-size: 1rem;
 }
 
@@ -31,6 +31,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -38,23 +39,22 @@ button:hover {
 }
 
 
-#grid-container
-{
+#grid-container {
     display: none;
-    grid-template-columns: repeat(4,50px);
+    grid-template-columns: repeat(4, 50px);
     gap: 5px;
     justify-content: center;
     margin-top: 20px;
 }
 
 
-.grid-item
-{
-  background-color: #f4f4f4;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
+.grid-item {
+    background-color: #f4f4f4;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
 
 }
